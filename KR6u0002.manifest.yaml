@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6u0002/v1
+canonical_location: https://kanripo.org/bkk/KR6u0002/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 護身命經
+  identifiers:
+    alt_id:
+    - T85n2866
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2866.xml
+    old_id: T85n2866
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6u0002_000.yaml, hash: 'sha256:403e632b764630a27d1c4db5b3c0bf2046a31b9e403d3220e7ae512aa347d5b6'}
+  - {seq: 1, filename: KR6u0002_001.yaml, hash: 'sha256:54d088def6a0b523d1494ebc88f31c8b98dc602e2e767afb1e82043eab681e86'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6u0002_001.markers.yaml, hash: 'sha256:34f2bd188b94b6844c246500ff0199e7cc2c8e90f90530351254a2d31d44cf84'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6u0002_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1203
+  label: 護身命經
+  type: juan
+  level: 1
+hash: sha256:14610f9d4b4a3f50638f81187f9e97a9525f703fd4f948b1ae5fed14e659a812
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
