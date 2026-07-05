@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6u0002_000.yaml, hash: 'sha256:403e632b764630a27d1c4db5b3c0bf2046a31b9e403d3220e7ae512aa347d5b6'}
-  - {seq: 1, filename: KR6u0002_001.yaml, hash: 'sha256:54d088def6a0b523d1494ebc88f31c8b98dc602e2e767afb1e82043eab681e86'}
+  - {seq: 1, filename: KR6u0002_001.yaml, hash: 'sha256:09e976ad7585a0b4a55034430b57394e1d05f7476bac2ae7a21c3245ff7250fb'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6u0002_001.markers.yaml, hash: 'sha256:34f2bd188b94b6844c246500ff0199e7cc2c8e90f90530351254a2d31d44cf84'}
+  - {seq: 0, role: markers, filename: assets/KR6u0002_000.markers.yaml, hash: 'sha256:846d9ec3a0bff76ae5b5912f14ac4fea31d646d0aa6022535526c570d77cc749'}
+  - {seq: 1, role: markers, filename: assets/KR6u0002_001.markers.yaml, hash: 'sha256:d9335535a2b7ed71cd625a8140254891f98ec57e7630559c812aa16c8e880f63'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 護身命經
   type: juan
   level: 1
-hash: sha256:14610f9d4b4a3f50638f81187f9e97a9525f703fd4f948b1ae5fed14e659a812
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:895128283d0cf88527541d7610120415595f70234aa547d813aee5d5ae2c13cb
